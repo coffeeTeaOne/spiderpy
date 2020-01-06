@@ -8,7 +8,7 @@ PyMySQL==0.8.1
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
 pyquery==1.4.0
-requests==2.18.4
+requests==2.20.0
 Scrapy==1.5.0
 PyYAML==3.13
 PyMuPDF==1.13.20
