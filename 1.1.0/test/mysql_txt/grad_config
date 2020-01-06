@@ -1,0 +1,107 @@
+逻辑：
+1，输入、输出分开存储，输入包括url，headers，请求参数，cookie，method等，输出包括结果数据项输出，参数输出等
+2，单个数据项的数据信息存入到一个字典里面，形成一个数组
+
+{
+	"output": {
+		"data": [{
+			"code": "PRO_NAME_",                                # mongo里面字段名称
+			"name": "产品名称",                                   # 中文解释，一般直接用code就是
+			"expr": "jsonpath(\'$.Data.Table[*].ProdName\')",   #  xpath或者jsonpath
+			"algo": "",                                         #  处理该数据项的js函数
+			"itemType": "resultOutput",                         #  类型：结果输出（resultOutput）、参数输出（paramOutput）
+			"keyParam": "N"                                     #  该数据项是否是主键
+		}, {
+			"code": "SALE_SOURCE_",
+			"name": "SALE_SOURCE_",
+			"expr": "SALE_SOURCE_",
+			"algo": "",
+			"itemType": "paramOutput",
+			"keyParam": "N"
+		}, {
+			"code": "PRO_CODE_",
+			"name": "PRO_CODE_",
+			"expr": "jsonpath(\'$.Data.Table[*].ProductNo\')",
+			"algo": "",
+			"itemType": "resultOutput",
+			"keyParam": "N"
+		}],
+		"url": "http://ewealth.abchina.com/fs/{PRO_CODE_}.htm", # 默认主键：URL_
+		"textType": "json",                                     # 返回数据类型是json，其他html
+		"prefix_url": "",
+		"algo": "",
+		"contentAlgo": ""                                       # 处理内容的js函数
+	},
+	"input": [{
+		"code": "User-Agent",
+		"name": "User-Agent",
+		"type": "STRING",
+		"defaultValue": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+		"collectionMap": ""
+	}, {
+		"code": "i",
+		"name": "i",
+		"type": "SCOPE",
+		"defaultValue": "",
+		"collectionMap": ""
+	}, {
+		"code": "SALE_SOURCE_",
+		"name": "SALE_SOURCE_",
+		"type": "STRING",
+		"defaultValue": "官网",
+		"collectionMap": ""
+	}, {
+		"code": "Accept-Language",
+		"name": "Accept-Language",
+		"type": "STRING",
+		"defaultValue": "en-US,en;q=0.9",
+		"collectionMap": ""
+	}, {
+		"code": "Host",
+		"name": "Host",
+		"type": "STRING",
+		"defaultValue": "ewealth.abchina.com",
+		"collectionMap": ""
+	}, {
+		"code": "Accept",
+		"name": "Accept",
+		"type": "STRING",
+		"defaultValue": "application/json, text/javascript, */*; q=0.01",
+		"collectionMap": ""
+	}],
+	# 按照headers，cookies，params组合成数组
+	"headers": [{
+		"code": "User-Agent",
+		"name": "User-Agent",
+		"expr": "reference[\'User-Agent\']",
+		"algo": ""
+	}, {
+		"code": "Accept-Language",
+		"name": "Accept-Language",
+		"expr": "reference[\'Accept-Language\']",
+		"algo": ""
+	}, {
+		"code": "Host",
+		"name": "Host",
+		"expr": "reference[\'Host\']",
+		"algo": ""
+	}, {
+		"code": "Accept",
+		"name": "Accept",
+		"expr": "reference[\'Accept\']",
+		"algo": ""
+	}],
+	"cookies": [],
+	"method": "GET",
+	"param": [],
+	"paramType": "COMMON",
+	"payload": {},
+	"includeUrls": "",
+	"url": "http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i={page}&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0",
+	"urlParam": [{
+		"code": "page",
+		"expr": "reference[\'i\']",
+		"algo": ""
+	}],
+	"datasourceMap": []
+}

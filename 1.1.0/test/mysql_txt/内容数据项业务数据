@@ -1,0 +1,24 @@
+	'CODE_': 'JRCP_LCCP_ZGNYYH_GW_ALL.CONTENT.CURRENCY_TYPE_', # 数据项编码：实体.CONTENT.数据项名称
+	'NAME_': '币种',                                            # 数据项名称
+	'TYPE1_': 'CONTENT',                                       # 类型：内容（CONTENT)，子模板（SUB），抓包（GRAB），附件（FILE）,字段来源于抓包（MAPPING），字段从地址映射过来的（PARAM）
+	'TYPE2_': 'TEXT',                                          # 大文本（BLOB），采集该元素（TEXT），html等，（IMGOCR），子模板（CLICK），（IMG），html（HTMLCSS），
+	'CONTENT_CODE_': 'JRCP_LCCP_ZGNYYH_GW_ALL.CONTENT',        # 内容模板编码
+	'DATA_TYPE_': 'STRING',                                    # 该数据字段数据类型
+	'FORMAT_': '',                                             # ？
+	'REQUIRED_': 'Y',                                          # 是否必须字段
+	'COLLECTION_CODE_': '',                                    # 正则集
+	'PATTERN1_': '//table[@class="list_cp"]/tr[4]/td[2]',      # 路径模式1
+	'PATTERN2_': '',                                           # 路径模式2
+	'PATTERN3_': '',                                           # 路径模式3
+	'CONFIG_': '',                                             # 抓包数据配置
+	'GRAB_ID_': None,                                          # 抓包的主键id（uuid）
+	'TENANT_ID_': None,                                        # ?
+	'CREATED_BY_ID_': 'P0130211',
+	'CREATED_BY_NAME_': '王春',
+	'CREATED_TIME_': datetime.datetime(2019, 3, 21, 15, 11, 59),
+	'DELFLAG_': 'N',
+	'DISPLAY_ORDER_': None,
+	'MODIFIED_BY_ID_': None,
+	'MODIFIED_BY_NAME_': None,
+	'MODIFIED_TIME_': datetime.datetime(2019, 3, 21, 15, 11, 59),
+	'VERSION_': 0

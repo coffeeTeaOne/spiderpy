@@ -1,0 +1,50 @@
+
+# 按单个请求参数组合
+[{
+	'code': 'User-Agent',
+	'expr': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+	'type': 'STRING',
+	'algo': ''
+}, {
+	'code': 'i',
+	'expr': '[1, 798, 1]',
+	'type': 'SCOPE',
+	'algo': ''
+}, {
+	'code': 'SALE_SOURCE_',
+	'expr': '官网',
+	'type': 'STRING',
+	'algo': ''
+}, {
+	'code': 'Accept-Language',
+	'expr': 'en-US,en;q=0.9',
+	'type': 'STRING',
+	'algo': ''
+}, {
+	'code': 'Host',
+	'expr': 'ewealth.abchina.com',
+	'type': 'STRING',
+	'algo': ''
+}, {
+	'code': 'Accept',
+	'expr': 'application/json, text/javascript, */*; q=0.01',
+	'type': 'STRING',
+	'algo': ''
+}]
+
+# 按类型组合
+{
+	'STRING': {
+		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+		'SALE_SOURCE_': '官网',
+		'Accept-Language': 'en-US,en;q=0.9',
+		'Host': 'ewealth.abchina.com',
+		'Accept': 'application/json, text/javascript, */*; q=0.01'
+	},
+	'MAP': {},
+	'ITEM': {},
+	'SCOPE': {
+		'i': [1, 798, 1]
+	},
+	'DATAMAP': {}
+}

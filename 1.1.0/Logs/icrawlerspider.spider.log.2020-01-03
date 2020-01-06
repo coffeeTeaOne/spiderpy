@@ -1,0 +1,419 @@
+[2020-01-03 14:48:19,915][INFO] None None None None None 爬虫开始运行---
+[2020-01-03 14:48:19,916][INFO] None None None None None 当前实体110000HXYH运行的版本为：1.1.0
+[2020-01-03 14:48:39,634][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 爬虫开始执行
+[2020-01-03 14:48:39,634][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 爬虫选取实体code：110000HXYH
+[2020-01-03 14:48:39,894][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR scrapy crawl AddressTempletSpider -a code_=110000HXYH.ADDR -a type_=PAGE -a entity_code=110000HXYH -a entity_name=华夏银行网站 -a dbname=CommonBidding -a key=URL_ -L WARNING
+[2020-01-03 14:48:39,978][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Scrapy 1.7.3 started (bot: ICrawlerSpiders)
+[2020-01-03 14:48:39,979][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Versions: lxml 4.2.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.2, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.18362-SP0
+[2020-01-03 14:48:39,989][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 10, 'AUTOTHROTTLE_START_DELAY': 2, 'BOT_NAME': 'ICrawlerSpiders', 'CLOSESPIDER_TIMEOUT': 43200, 'CONCURRENT_REQUESTS_PER_DOMAIN': 4, 'CONCURRENT_REQUESTS_PER_IP': 4, 'COOKIES_DEBUG': True, 'DNS_TIMEOUT': 30, 'DOWNLOAD_DELAY': 0.5, 'DOWNLOAD_TIMEOUT': 100, 'LOG_LEVEL': 'WARNING', 'NEWSPIDER_MODULE': 'ICrawlerSpiders.Spiders', 'SPIDER_MODULES': ['ICrawlerSpiders.Spiders']}
+[2020-01-03 14:48:40,053][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+[2020-01-03 14:48:40,398][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'ICrawlerSpiders.middlewares.ProxyMiddleware',
+ 'ICrawlerSpiders.middlewares.DLMiddleware',
+ 'ICrawlerSpiders.middlewares.DownLoadsMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2020-01-03 14:48:40,404][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2020-01-03 14:48:40,405][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled item pipelines:
+[]
+[2020-01-03 14:48:40,406][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Spider opened
+[2020-01-03 14:48:40,412][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2020-01-03 14:48:51,533][INFO] None None None None None 爬虫开始运行---
+[2020-01-03 14:48:51,533][INFO] None None None None None 当前实体110000HXYH运行的版本为：1.1.0
+[2020-01-03 14:48:52,097][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 爬虫开始执行
+[2020-01-03 14:48:52,099][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 爬虫选取实体code：110000HXYH
+[2020-01-03 14:48:52,374][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR scrapy crawl AddressTempletSpider -a code_=110000HXYH.ADDR -a type_=PAGE -a entity_code=110000HXYH -a entity_name=华夏银行网站 -a dbname=CommonBidding -a key=URL_ -L WARNING
+[2020-01-03 14:48:52,415][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Scrapy 1.7.3 started (bot: ICrawlerSpiders)
+[2020-01-03 14:48:52,416][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Versions: lxml 4.2.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.2, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.18362-SP0
+[2020-01-03 14:48:52,419][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 10, 'AUTOTHROTTLE_START_DELAY': 2, 'BOT_NAME': 'ICrawlerSpiders', 'CLOSESPIDER_TIMEOUT': 43200, 'CONCURRENT_REQUESTS_PER_DOMAIN': 4, 'CONCURRENT_REQUESTS_PER_IP': 4, 'COOKIES_DEBUG': True, 'DNS_TIMEOUT': 30, 'DOWNLOAD_DELAY': 0.5, 'DOWNLOAD_TIMEOUT': 100, 'LOG_LEVEL': 'WARNING', 'NEWSPIDER_MODULE': 'ICrawlerSpiders.Spiders', 'SPIDER_MODULES': ['ICrawlerSpiders.Spiders']}
+[2020-01-03 14:48:52,485][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+[2020-01-03 14:48:52,989][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'ICrawlerSpiders.middlewares.ProxyMiddleware',
+ 'ICrawlerSpiders.middlewares.DLMiddleware',
+ 'ICrawlerSpiders.middlewares.DownLoadsMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2020-01-03 14:48:52,992][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2020-01-03 14:48:52,992][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Enabled item pipelines:
+[]
+[2020-01-03 14:48:52,993][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Spider opened
+[2020-01-03 14:48:52,996][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2020-01-03 14:48:54,677][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR <function M_Spiders.Page_Analyze at 0x000002627BB14E18>执行成功
+[2020-01-03 14:48:54,677][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR <function Address_Middleware.Invoking_Diff at 0x000002627BFEE268>执行成功
+[2020-01-03 14:48:54,678][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 地址中间件程序执行成功
+[2020-01-03 14:48:54,852][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://125.87.99.157:23342
+[2020-01-03 14:48:55,121][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://61.186.65.212:23455
+[2020-01-03 14:48:55,284][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://111.181.50.176:16824
+[2020-01-03 14:48:55,606][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://111.181.50.176:16824
+[2020-01-03 14:48:55,836][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://49.89.110.200:42469
+[2020-01-03 14:48:55,986][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://111.181.50.176:16824
+[2020-01-03 14:48:56,205][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://61.186.65.212:23455
+[2020-01-03 14:48:56,396][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://125.87.99.157:23342
+[2020-01-03 14:48:56,398][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index.shtml> (referer: None)
+[2020-01-03 14:48:56,521][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://61.186.65.212:23455
+[2020-01-03 14:48:56,523][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index.shtml，响应成功！
+[2020-01-03 14:48:57,181][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://114.106.137.205:17226
+[2020-01-03 14:48:57,351][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://125.119.67.130:16302
+[2020-01-03 14:48:57,355][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_2.shtml> (referer: None)
+[2020-01-03 14:48:57,521][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://125.87.99.157:23342
+[2020-01-03 14:48:57,522][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_2.shtml，响应成功！
+[2020-01-03 14:48:58,133][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://49.89.110.200:42469
+[2020-01-03 14:48:58,277][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://182.143.106.41:19585
+[2020-01-03 14:48:58,279][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_3.shtml> (referer: None)
+[2020-01-03 14:48:58,414][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://125.119.67.130:16302
+[2020-01-03 14:48:58,416][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_3.shtml，响应成功！
+[2020-01-03 14:48:58,936][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://49.89.110.200:42469
+[2020-01-03 14:48:59,012][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://111.72.25.135:23572
+[2020-01-03 14:48:59,014][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_4.shtml> (referer: None)
+[2020-01-03 14:48:59,071][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://111.181.50.176:16824
+[2020-01-03 14:48:59,132][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 当前使用ip为http://114.106.137.205:17226
+[2020-01-03 14:48:59,132][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_4.shtml，响应成功！
+[2020-01-03 14:48:59,169][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,170][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46278.shtml" }
+[2020-01-03 14:48:59,187][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,187][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46323.shtml" }
+[2020-01-03 14:48:59,196][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,197][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46277.shtml" }
+[2020-01-03 14:48:59,224][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,225][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46276.shtml" }
+[2020-01-03 14:48:59,243][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,243][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46275.shtml" }
+[2020-01-03 14:48:59,260][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,260][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46274.shtml" }
+[2020-01-03 14:48:59,279][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,280][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46322.shtml" }
+[2020-01-03 14:48:59,307][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,307][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46282.shtml" }
+[2020-01-03 14:48:59,338][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,339][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46273.shtml" }
+[2020-01-03 14:48:59,367][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,367][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46078.shtml" }
+[2020-01-03 14:48:59,387][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,388][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46077.shtml" }
+[2020-01-03 14:48:59,418][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,418][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46123.shtml" }
+[2020-01-03 14:48:59,446][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,447][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46074.shtml" }
+[2020-01-03 14:48:59,455][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,455][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46122.shtml" }
+[2020-01-03 14:48:59,464][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:48:59,464][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/46030.shtml" }
+[2020-01-03 14:48:59,581][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_6.shtml> (referer: None)
+[2020-01-03 14:48:59,681][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_6.shtml，响应成功！
+[2020-01-03 14:49:00,143][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Received cookies from: <302 http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_7.shtml>
+Set-Cookie: COLLCK=210748125
+
+[2020-01-03 14:49:00,144][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Redirecting (302) to <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_7.shtml> from <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_7.shtml>
+[2020-01-03 14:49:00,145][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Filtered duplicate request: <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_7.shtml> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[2020-01-03 14:49:00,823][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_8.shtml> (referer: None)
+[2020-01-03 14:49:00,928][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_8.shtml，响应成功！
+[2020-01-03 14:49:01,527][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_5.shtml> (referer: None)
+[2020-01-03 14:49:01,548][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_9.shtml> (referer: None)
+[2020-01-03 14:49:01,628][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_5.shtml，响应成功！
+[2020-01-03 14:49:02,247][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_9.shtml，响应成功！
+[2020-01-03 14:49:03,045][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_10.shtml> (referer: None)
+[2020-01-03 14:49:03,146][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_10.shtml，响应成功！
+[2020-01-03 14:49:04,419][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Received cookies from: <200 http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_12.shtml>
+Set-Cookie: HttpOnly;
+
+Set-Cookie: BIGipServerpool_hxb_web_8080=!OGWmLw1NW2sjrLta4pUCI7LYmkxKzBLE66Gu5eVSLH27bmU8iP2GsvHPs3PMuNS2llWqJRFBH1RK2mM=; path=/
+
+[2020-01-03 14:49:04,420][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_12.shtml> (referer: None)
+[2020-01-03 14:49:04,522][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_12.shtml，响应成功！
+[2020-01-03 14:49:04,558][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,558][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43178.shtml" }
+[2020-01-03 14:49:04,586][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,586][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43175.shtml" }
+[2020-01-03 14:49:04,614][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,614][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43222.shtml" }
+[2020-01-03 14:49:04,624][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,624][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43173.shtml" }
+[2020-01-03 14:49:04,633][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,634][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43122.shtml" }
+[2020-01-03 14:49:04,664][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,664][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42986.shtml" }
+[2020-01-03 14:49:04,692][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,692][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43027.shtml" }
+[2020-01-03 14:49:04,713][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,713][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42984.shtml" }
+[2020-01-03 14:49:04,742][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,743][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43025.shtml" }
+[2020-01-03 14:49:04,771][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,771][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42982.shtml" }
+[2020-01-03 14:49:04,798][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,799][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42981.shtml" }
+[2020-01-03 14:49:04,806][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,807][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42979.shtml" }
+[2020-01-03 14:49:04,833][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,833][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42978.shtml" }
+[2020-01-03 14:49:04,852][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,853][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42976.shtml" }
+[2020-01-03 14:49:04,880][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,881][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42974.shtml" }
+[2020-01-03 14:49:04,906][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:04,908][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42973.shtml" }
+[2020-01-03 14:49:05,194][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_14.shtml> (referer: None)
+[2020-01-03 14:49:05,294][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_14.shtml，响应成功！
+[2020-01-03 14:49:05,961][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_15.shtml> (referer: None)
+[2020-01-03 14:49:06,064][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_15.shtml，响应成功！
+[2020-01-03 14:49:06,614][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_11.shtml> (referer: None)
+[2020-01-03 14:49:06,643][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Received cookies from: <200 http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_13.shtml>
+Set-Cookie: HttpOnly;
+
+Set-Cookie: BIGipServerpool_hxb_web_8080=!6T9X26sIY96FIzda4pUCI7LYmkxKzMMOG+uQ3pqws+cVLWYxR86cuHVPIYm5U00W4+zwj4+2sbxggH8=; path=/
+
+[2020-01-03 14:49:06,644][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_13.shtml> (referer: None)
+[2020-01-03 14:49:06,715][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_11.shtml，响应成功！
+[2020-01-03 14:49:06,940][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:06,940][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43276.shtml" }
+[2020-01-03 14:49:06,949][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:06,950][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43275.shtml" }
+[2020-01-03 14:49:06,959][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:06,959][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43323.shtml" }
+[2020-01-03 14:49:06,986][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:06,986][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43322.shtml" }
+[2020-01-03 14:49:07,015][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,016][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43178.shtml" }
+[2020-01-03 14:49:07,044][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,044][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43175.shtml" }
+[2020-01-03 14:49:07,071][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,071][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43222.shtml" }
+[2020-01-03 14:49:07,100][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,100][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43173.shtml" }
+[2020-01-03 14:49:07,117][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,118][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43122.shtml" }
+[2020-01-03 14:49:07,146][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,146][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42986.shtml" }
+[2020-01-03 14:49:07,174][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,175][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/43027.shtml" }
+[2020-01-03 14:49:07,202][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:07,203][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/12/42984.shtml" }
+[2020-01-03 14:49:07,206][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_13.shtml，响应成功！
+[2020-01-03 14:49:07,731][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_16.shtml> (referer: None)
+[2020-01-03 14:49:07,832][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_16.shtml，响应成功！
+[2020-01-03 14:49:08,388][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Received cookies from: <200 http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_17.shtml>
+Set-Cookie: HttpOnly;
+
+Set-Cookie: BIGipServerpool_hxb_web_8080=!XmLtQTkUbrB1Uy5a4pUCI7LYmkxKzMioj6Y6dHyUYOiarFdfEHtwO2q3kBnYXIQYysgGhMAR2hzGLDY=; path=/
+
+[2020-01-03 14:49:08,389][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_17.shtml> (referer: None)
+[2020-01-03 14:49:08,416][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_18.shtml> (referer: None)
+[2020-01-03 14:49:08,490][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_17.shtml，响应成功！
+[2020-01-03 14:49:08,526][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,527][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40685.shtml" }
+[2020-01-03 14:49:08,553][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,554][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40683.shtml" }
+[2020-01-03 14:49:08,581][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,582][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40681.shtml" }
+[2020-01-03 14:49:08,599][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,600][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40679.shtml" }
+[2020-01-03 14:49:08,617][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,617][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40677.shtml" }
+[2020-01-03 14:49:08,636][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,636][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40675.shtml" }
+[2020-01-03 14:49:08,654][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,654][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40673.shtml" }
+[2020-01-03 14:49:08,682][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,682][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40527.shtml" }
+[2020-01-03 14:49:08,710][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,710][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40525.shtml" }
+[2020-01-03 14:49:08,737][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,738][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40523.shtml" }
+[2020-01-03 14:49:08,764][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,765][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40425.shtml" }
+[2020-01-03 14:49:08,793][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,793][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40473.shtml" }
+[2020-01-03 14:49:08,821][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,821][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40472.shtml" }
+[2020-01-03 14:49:08,838][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,838][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40372.shtml" }
+[2020-01-03 14:49:08,856][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,856][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40277.shtml" }
+[2020-01-03 14:49:08,874][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,874][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40275.shtml" }
+[2020-01-03 14:49:08,912][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,913][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40225.shtml" }
+[2020-01-03 14:49:08,935][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,937][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40273.shtml" }
+[2020-01-03 14:49:08,963][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,963][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40272.shtml" }
+[2020-01-03 14:49:08,992][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:08,993][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/40173.shtml" }
+[2020-01-03 14:49:08,997][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_18.shtml，响应成功！
+[2020-01-03 14:49:09,798][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Received cookies from: <200 http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_19.shtml>
+Set-Cookie: HttpOnly;
+
+Set-Cookie: BIGipServerpool_hxb_web_8080=!0gHxo0ekDzVTjuBa4pUCI7LYmkxKzMMKnbY4/D6lQsrLSIHgCIa+Epaj+xxmSRLO1CZDxlW+Qa50uQo=; path=/
+
+[2020-01-03 14:49:09,802][DEBUG] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Crawled (200) <GET http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_19.shtml> (referer: None)
+[2020-01-03 14:49:09,904][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/index_19.shtml，响应成功！
+[2020-01-03 14:49:09,947][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:09,947][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39473.shtml" }
+[2020-01-03 14:49:09,975][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:09,976][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39322.shtml" }
+[2020-01-03 14:49:09,995][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:09,995][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39275.shtml" }
+[2020-01-03 14:49:10,022][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,023][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39273.shtml" }
+[2020-01-03 14:49:10,040][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,041][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39175.shtml" }
+[2020-01-03 14:49:10,075][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,077][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39173.shtml" }
+[2020-01-03 14:49:10,110][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,110][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39123.shtml" }
+[2020-01-03 14:49:10,133][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,135][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39073.shtml" }
+[2020-01-03 14:49:10,169][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,170][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39045.shtml" }
+[2020-01-03 14:49:10,192][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,193][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39043.shtml" }
+[2020-01-03 14:49:10,221][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,222][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39041.shtml" }
+[2020-01-03 14:49:10,251][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,251][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39039.shtml" }
+[2020-01-03 14:49:10,279][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,279][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39037.shtml" }
+[2020-01-03 14:49:10,306][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,307][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39035.shtml" }
+[2020-01-03 14:49:10,334][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,334][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39033.shtml" }
+[2020-01-03 14:49:10,352][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,352][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39031.shtml" }
+[2020-01-03 14:49:10,379][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,379][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39029.shtml" }
+[2020-01-03 14:49:10,407][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,408][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39027.shtml" }
+[2020-01-03 14:49:10,425][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 数据重复
+[2020-01-03 14:49:10,426][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR E11000 duplicate key error collection: spider_url_fixed.110000HXYH index: URL__1 dup key: { : "http://www.hxb.com.cn/jrhx/hxzx/hxxw/cggg/2019/11/39025.shtml" }
+[2020-01-03 14:49:10,434][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Closing spider (finished)
+[2020-01-03 14:49:10,435][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 地址模板110000HXYH执行成功 
+[2020-01-03 14:49:10,435][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR 总共抓取360条,成功抓取278条,重复抓取82条,黑名单0条，灰名单0条
+[2020-01-03 14:49:10,436][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Dumping Scrapy stats:
+{'downloader/request_bytes': 4739,
+ 'downloader/request_count': 19,
+ 'downloader/request_method_count/GET': 19,
+ 'downloader/response_bytes': 2143446,
+ 'downloader/response_count': 19,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 17.439294,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 3, 6, 49, 10, 434388),
+ 'response_received_count': 18,
+ 'scheduler/dequeued': 19,
+ 'scheduler/dequeued/memory': 19,
+ 'scheduler/enqueued': 19,
+ 'scheduler/enqueued/memory': 19,
+ 'start_time': datetime.datetime(2020, 1, 3, 6, 48, 52, 995094)}
+[2020-01-03 14:49:10,437][INFO] SPIDER_ADDRESS 110000HXYH None 2018-09-29 00:00:01 110000HXYH.ADDR Spider closed (finished)
+[2020-01-03 14:49:35,249][INFO] None None None None None 爬虫开始运行---
+[2020-01-03 14:49:35,250][INFO] None None None None None 当前实体110000BJRCB运行的版本为：1.1.0
+[2020-01-03 14:49:35,943][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 爬虫开始执行
+[2020-01-03 14:49:35,945][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 爬虫选取实体code：110000BJRCB
+[2020-01-03 14:49:36,943][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR scrapy crawl AddressTempletSpider -a code_=110000BJRCB.ADDR -a type_=GRAB -a entity_code=110000BJRCB -a entity_name=北京农商银行网站 -a dbname=CommonBidding -a key=URL_ -L WARNING
+[2020-01-03 14:49:36,991][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Scrapy 1.7.3 started (bot: ICrawlerSpiders)
+[2020-01-03 14:49:36,992][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Versions: lxml 4.2.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.2, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.18362-SP0
+[2020-01-03 14:49:36,995][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 10, 'AUTOTHROTTLE_START_DELAY': 2, 'BOT_NAME': 'ICrawlerSpiders', 'CLOSESPIDER_TIMEOUT': 43200, 'CONCURRENT_REQUESTS_PER_DOMAIN': 4, 'CONCURRENT_REQUESTS_PER_IP': 4, 'COOKIES_DEBUG': True, 'DNS_TIMEOUT': 30, 'DOWNLOAD_DELAY': 0.5, 'DOWNLOAD_TIMEOUT': 100, 'LOG_LEVEL': 'WARNING', 'NEWSPIDER_MODULE': 'ICrawlerSpiders.Spiders', 'SPIDER_MODULES': ['ICrawlerSpiders.Spiders']}
+[2020-01-03 14:49:37,044][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+[2020-01-03 14:49:37,603][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'ICrawlerSpiders.middlewares.ProxyMiddleware',
+ 'ICrawlerSpiders.middlewares.DLMiddleware',
+ 'ICrawlerSpiders.middlewares.DownLoadsMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2020-01-03 14:49:37,606][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2020-01-03 14:49:37,606][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Enabled item pipelines:
+[]
+[2020-01-03 14:49:37,607][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Spider opened
+[2020-01-03 14:49:37,609][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2020-01-03 14:49:38,948][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR <function M_Spiders.Grab_Analyze at 0x00000231DF227D08>执行成功
+[2020-01-03 14:49:38,949][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR <function Address_Middleware.Invoking_Diff at 0x00000231DF6FF268>执行成功
+[2020-01-03 14:49:38,949][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 地址中间件程序执行成功
+[2020-01-03 14:49:39,088][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 当前使用ip为http://124.113.193.189:20979
+[2020-01-03 14:49:40,967][DEBUG] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Received cookies from: <200 http://www.bjrcb.com/publish/portal0/tab1206/>
+Set-Cookie: BIGipServerpool_New_menhu=624204811.20480.0000; path=/; Httponly
+
+[2020-01-03 14:49:40,972][DEBUG] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Crawled (200) <GET http://www.bjrcb.com/publish/portal0/tab1206/> (referer: None)
+[2020-01-03 14:49:41,074][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR http://www.bjrcb.com/publish/portal0/tab1206/，响应成功！
+[2020-01-03 14:49:43,624][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Closing spider (finished)
+[2020-01-03 14:49:43,625][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 地址模板110000BJRCB执行成功 
+[2020-01-03 14:49:43,625][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 总共抓取6条,成功抓取6条,重复抓取0条,黑名单0条，灰名单0条
+[2020-01-03 14:49:43,626][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Dumping Scrapy stats:
+{'downloader/request_bytes': 239,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 92591,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 6.015002,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 3, 6, 49, 43, 624525),
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 1, 3, 6, 49, 37, 609523)}
+[2020-01-03 14:49:43,627][INFO] SPIDER_ADDRESS 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR Spider closed (finished)
+[2020-01-03 14:50:04,957][INFO] None None None None None 爬虫开始运行---
+[2020-01-03 14:50:04,957][INFO] None None None None None 当前实体110000BJRCB运行的版本为：1.1.0
+[2020-01-03 14:50:05,534][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 爬虫开始执行
+[2020-01-03 14:50:05,535][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 爬虫选取实体code：110000BJRCB
+[2020-01-03 14:50:06,122][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 从mongo地址temp表中取一条数据
+[2020-01-03 14:50:10,565][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 开始页面模式
+[2020-01-03 14:50:10,748][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 开始请求http://www.bjrcb.com/publish/portal0/tab1206/info153187.htm,请求代理为{'http': 'http://125.87.99.157:23342', 'https': 'https://125.87.99.157:23342'}
+[2020-01-03 14:50:11,527][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 开始处理页面模式的数据
+[2020-01-03 14:50:11,565][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 替换全局变量
+[2020-01-03 14:50:11,570][INFO] SPIDER_CONTENT 110000BJRCB None 2018-09-29 00:00:01 110000BJRCB.ADDR 内容抓取数据成功，并成功插入mongo中

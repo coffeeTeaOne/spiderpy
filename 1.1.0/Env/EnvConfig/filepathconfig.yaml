@@ -1,0 +1,34 @@
+Windows:
+  log:
+    path:/Logs/
+  img:
+    path:/File/IMG/
+  pdf:
+    path:/File/PDF/
+  word:
+    path:/File/WORD/
+  wechatimg:
+    path:/File/WeChatIMG/
+  sinaimg:
+    path:/File/SinaIMG/
+  persistence:
+    path:/Env/PersistenceFile/
+
+
+Linux:
+  log-ztb:
+    path:/home/ijep/logs/python
+  log-cb:
+    path:/home/spiderjob/domain/logs/spiderpy/
+  img:
+    path:/File/IMG/
+  pdf:
+    path:/File/PDF/
+  word:
+    path:/File/WORD/
+  wechatimg:
+    path:/File/WeChatIMG/
+  sinaimg:
+    path:/File/SinaIMG/
+  persistence:
+    path:/Env/PersistenceFile/

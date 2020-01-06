@@ -1,0 +1,52 @@
+mysql.config:
+   localhostconn:
+      host:localhost
+      port:3306
+      db:spider
+      user:root
+      password:123456
+      charset:utf8
+
+   myconn_test:
+     host:123.57.40.151
+     port:3306
+     db:spider_test
+     user:root
+     password:dev007%Ppassword
+     charset:utf8
+
+
+mongodb.config:
+   localhostconn:
+      host:localhost
+      port:27017
+      datadb:spider_data
+      fixeddb:spider_url_fixed
+      tempdb:spider_url_temp
+
+
+redis.config.common:
+   localhostconn:
+      host:localhost
+      port:6379
+      db:0
+
+redis.config.wechat:
+   localhostconn:
+      host:localhost
+      port:6379
+      db:0
+
+   41conn:
+     host:172.22.69.41
+     port:6379
+     db:0
+redis.config.colony:
+   colony:
+      host:172.22.69.35|172.22.69.36|172.22.69.37|172.22.69.38|172.22.69.40|172.22.69.45
+      port:6379
+      db:0
+   105-62-93colony:
+      host:192.168.1.105|192.168.1.62|192.168.1.93
+      port:6379
+      db:0

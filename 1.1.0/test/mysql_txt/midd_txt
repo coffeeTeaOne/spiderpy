@@ -1,0 +1,79 @@
+{
+	'header': {
+		'Accept-Language': 'en-US,en;q=0.9',
+		'Host': 'ewealth.abchina.com',
+		'Accept': 'application/json, text/javascript, */*; q=0.01',
+		'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110622 Firefox/6.0a2'
+	},
+	'content_url': 'http://ewealth.abchina.com/fs/{PRO_CODE_}.htm',
+	'parm': [], # 请求参数
+	'static_data': [{ # 用于参数输出
+		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+		'SALE_SOURCE_': '官网',
+		'Accept-Language': 'en-US,en;q=0.9',
+		'Host': 'ewealth.abchina.com',
+		'Accept': 'application/json, text/javascript, */*; q=0.01'
+	},{
+		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+		'SALE_SOURCE_': '官网',
+		'Accept-Language': 'en-US,en;q=0.9',
+		'Host': 'ewealth.abchina.com',
+		'Accept': 'application/json, text/javascript, */*; q=0.01'
+	}],
+	'method': 'GET',
+	'url': ['http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=1&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=2&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=3&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=4&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=5&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=6&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=7&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=8&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=9&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=10&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=11&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=12&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=13&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0', 'http://ewealth.abchina.com/app/data/api/DataService/BoeProductV2?i=14&s=15&o=0&w=%257C%257C%257C%257C%257C%257C%257C1%257C%257C0%257C%257C0'],
+	'domain': 'abchina.com',
+	'final_out': { # 结果数据项
+		'data': [{
+			'code': 'PRO_NAME_',
+			'name': '产品名称'
+		}, {
+			'code': 'SALE_SOURCE_',
+			'name': 'SALE_SOURCE_'
+		}, {
+			'code': 'PRO_CODE_',
+			'name': 'PRO_CODE_'
+		}]
+	},
+	'out_put': 'None',
+	'content_out': {   结果数据项配置信息
+		'data': [{
+			'root': '$.Data.Table[*]',
+			'code': 'PRO_NAME_',
+			'expr': 'ProdName',
+			'algo': ''
+		}, {
+			'root': '$.Data.Table[*]',
+			'code': 'PRO_CODE_',
+			'expr': 'ProductNo',
+			'algo': ''
+		}]
+	},
+	'global_parm': '',
+	'textType': 'json', # 内容格式
+	'expr': '',
+	'param_type': 'COMMON',
+	'content_algo': '',
+	'param_output': [{
+		'code': 'SALE_SOURCE_',
+		'expr': 'SALE_SOURCE_'
+	}],
+	'result_output': [{
+		'code': 'PRO_NAME_',
+		'name': '产品名称',
+		'expr': "jsonpath('$.Data.Table[*].ProdName')",
+		'algo': '',
+		'itemType': 'resultOutput',
+		'keyParam': 'N'
+	}, {
+		'code': 'PRO_CODE_',
+		'name': 'PRO_CODE_',
+		'expr': "jsonpath('$.Data.Table[*].ProductNo')",
+		'algo': '',
+		'itemType': 'resultOutput',
+		'keyParam': 'N'
+	}],
+	'node': '$.Data.Table[*]',
+	'white': ['cscb.cn', 'pingan.com.cn', 'ccb.com', 'ztb365.cn', 'fangchan.com', 'cqcbank.com', 'ksrcb.cn', 'syzbw.com.cn', 'sogou.com', 'zjrcbank.com', 'bidchance.com', 'cec-ceda.org.cn', 'cs.com.cn', 'yznsh.net', 'yantaibank.net', 'rgrcb.com', 'cfcpn.com', 'dlzb.com', 'dzccb.com.cn', 'thepaper.cn', 'shnsh.net', 'bankofbbg.com', 'bosc.cn', '106.22.50', 'tcrcb.com', 'ftchinese.com', 'basic.10jqka.com.cn', 'zbtb.com.cn', '51sxue.com', 'uccb.com.cn', 'jrj.com', 'dqsbw.com', 'zbtb.com', 'chinatax.gov.cn', 'bankyellowriver.com', 'infobidding.com', 'pzhccb.com', 'bank-of-china.com', 'meipian.me', 'cebbank.com', 'china-g.com', '10jqka.com.cn', 'cbhb.com.cn', 'szse.cn', 'gongjiao.com', 'bocd.com.cn', 'hebbank.com', 'csrc.gov.cn', '73.25.79', 'tjbhb.com', 'ke.com', 'qq.com', '73.4.152', 'http://creditcard.cib.com.cn', 'psbc.com', 'lzccb.com', 'pingan.com', 'cc.cmbchina.com', 'cnfol.com', 'hxb.com.cn', 'tongshanbank.com', 'sinotf.com', 'finance.sina.com.cn', 'bankofluoyang.com.cn', 'itjuzi.com', 'ahrcu.com', 'cgbchina.com.cn', 'bjrcb.com', 'ahgynsh.com', 'gdtz.gov.cn', 'sdebank.com', 'xzhhrcb.com', 'ccqtgb.com', 'gzpygs.dlzb.com', '36kr.com', 'house.qq.com', 'nycbank.cn', 'jiemian.com', 'jshbank.com', 'chinabidding.cn', 'jrj.com.cn', 'sxxbank.com.cn', 'sme.gov.cn', 'meipian.cn', 'fjhxbank.com', 'circ.gov.cn', 'iyiou.com', 'chinabidding.com', 'bank.jrj.com.cn', 'finchina.com', 'fjnx.com.cn', 'yanglee.com', 'hebnx.com', 'cib.com.cn', 'fudian-bank.com', 'haianbank.com', 'e-bidding.org', 'cbrc.gov.cn', 'srcb.com', 'new.qq.com', 'poi.mapbar.com', 'caijing.com.cn', 'dlztb.com', 'hbxh.com.cn', 'xueqiu.com', '163.com', 'machine365.com', 'mapbar.com', 'mycc-bank.com', 'jzctb.com', 'zgny.com.cn', 'yuqing.hexun.com', '21food.cn', 'iachina.cn', 'csrcbank.com', 'ceea.org.cn', 'news.spdb.com.cn', 'cmbc.com.cn', 'jxnxs.com', 'shihuazhaobiao.com.cn', '21ic.com', 'creditcard.pingan.com', 'landchina.com', 'cmbchina.com', 'czbank.com', 'cipmf.com', 'ebnew.com', 'gyxt.com.cn', 'bynsyh.com', 'bankofchina.com', 'snccb.com', 'chinabidding.org.cn', '95559.com.cn', 'china-qiche.com', 'abchina.com', 'ccgp.gov.cn', 'zhongmin.cn', 'gzcb.com.cn', 'eximbank.gov.cn', 'tf.cn', 'cec1979.org.cn', 'ecitic.com', 'wrcb.com.cn', 'yaoduyh.com', 'nanhaibank.com', 'jybank.com.cn', 'gzw.sz.gov.cn', 'zrcbank.com', 'chinawealth.com.cn', 'cngold.org', '51kaxun.com', 'yzbank.com', 'icbc.com.cn', 'cqggzy.com', 'yicai.com', 'cncic.org', 'china-zbycg.com', 'citicbank.com', 'hfbank.com.cn', 'cecbid.org.cn', 'yidai.com', 'tt96596.com', 'xacbank.com', 'icbc-ltd.com', 'nbcb.com.cn', 'com.cn', 'foshan.gongjiao.com', 'yaccb.cn', 'rcbxm.com', 'guilinbank.com.cn', 'sse.com.cn', '21cp.com', 'bidnews.cn', 'utrack.hexun.com', 'chinatrc.com.cn', 'baidu.com', 'ctei.cn', 'chinabidding.cc', 'sina.com.cn', 'yaofangwang.com', 'scrcu.com', 'mybank.icbc.com.cn', 'sz.gov.cn', 'pwccn.com', 'gdrcu.com', 'trust-one.com', 'wjrcb.com', 'cbminfo.com', 'cqiic.com', 'eastmoney.com', 'cnbidding.com', 'bxwst.com', 'dichan.com', 'datanews.dichan.com', 'jsbchina.cn', 'deloitte.com', 'iceo.com.cn', 'chinapost.com.cn', '21jingji.com', 'xybank.net', 'sasac.gov.cn', 'creb.com.cn', 'iresearch.com.cn', 'jsjdrcb.com', 'rong360.com', 'qianlima.com', 'linkshop.com.cn', 'home.kpmg', 'sdnxs.com', 'v-value.cn', 'pbc.gov.cn', 'cdn.citiccard.hunshitong.net', 'cninfo.com.cn', 'spdb.com.cn', 'autohome.com.cn', 'people.com.cn', 'cignacmb.com', 'dzbchina.com', 'bidhome.com.cn', 'ynhtbank.com', 'cardbaobao.com', 'sichuanbidding.com', 'ccidnet.com', 'hrxjbank.com.cn', 'yuanlin.com', 'zjxsbank.com', 'sina.cn', 'api.meipian.me', 'hainanbank.com.cn', 'fgw.gz.gov.cn', 'ahtcnsh.com', 'cnmeti.com', 'chemnet.com', 'spdbccc.com.cn', 'spdb.com.cn', 'srbank.cn', 'czccb.cn', 'cmbimg.com', 'chinaforex.com.cn', 'klb.cn', 'zrfan.com', 'okcis.cn', 'slzbw.org', 'cnenergy.org', 'gz.gov.cn', 'szzfcg.cn', 'china-bid.com.cn', 'mckinsey.com.cn', 'cd.ke.com', '.bank-of-china.com', 'weibo.cn', '199it.com', 'cebpubservice.com', 'talkingdata.com', 'topbiz360.com', 'xtbank.com', 'unionpay.com', 'gzsztb.gov.cn', '51credit.com', 'bulletin.cebpubservice.com', 'jhccb.com.cn', 'gznxbank.com', 'bankcomm.com', 'zzbank.cc', 'jszhaobiao.com', 'lixinbank.com', 'boc.cn', 'analysys.cn', 'bankofbeijing.com.cn', 'bxztb.cn', 'lianjia.com', 'zbytb.com', 'iresearch.cn', 'bidcenter.com.cn', 'fund.eastmoney.com', 'dianping.com', 'stcn.com', 'pos.baidu.com', 'creditcard.ecitic.com', 'hmccb.com', 'dfrcb.com', 'c114.com.cn', 'tzxm.gov.cn:8081', 'ce.cn', 'gzccb.com', 'gynsh.net', 'hexun.com', 'ac.cn'],
+	'black': ['taobao.com', 'jd.com', 'gsxt.gov.cn']
+}

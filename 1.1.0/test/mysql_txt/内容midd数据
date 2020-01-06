@@ -1,0 +1,71 @@
+[{
+    'code': '110000BJRCB.CONTENT', # 内容编码
+    'config': {
+        'CONTENT': [{
+            'img_src_list': '',    # html里面的图片
+            'datatype': 'STRING',  # 该字段数据类型
+            'required': '',
+            'global_parm': [{      # 输出字段：地址映射内容
+                'code': 'NOTICE_TIME_',
+                'value': '110000BJRCB.CONTENT.NOTICE_TIME_'
+            }],
+            'out_put': [{          # 输出字段：内容
+                'code': 'TITLE_',
+                'name': '标题',
+                'value': '{110000BJRCB.CONTENT.TITLE_}',
+                'algo': ''
+            }, {
+                'code': 'PROJECT_NAME_',
+                'name': '项目名称',
+                'value': '{110000BJRCB.CONTENT.PROJECT_NAME_}',
+                'algo': ''
+            }, {
+                'code': 'CONTENT_',
+                'name': '大文本',
+                'value': '{110000BJRCB.CONTENT.CONTENT_}',
+                'algo': ''
+            }, {
+                'code': 'NOTICE_TIME_',
+                'name': '公告时间',
+                'value': '{110000BJRCB.CONTENT.NOTICE_TIME_}',
+                'algo': ''
+            }],
+            'pattern': ['//*[@id="zoom"]', '', ''],  # 路径xpath1,2,3
+            'method': 'CONTENT',                     # 内容（其他，抓包，子模板等）
+            'expr': {                                # 正则集
+                'CONTENT_': [{
+                    'expr_code_': 'bjnsyhExpr_bjnsyhExpr_bidContent',
+                    'item_code': 'BID_CONTENT_',
+                    'name_': '招标内容',
+                    'expr_': '(?:项目建设概述|项目需求概述)(?::|：|)([\\s\\S]*?)[一|二|三|四]、'
+                }, {
+                    'expr_code_': 'bjnsyhExpr_bjnsyhExpr_singupEndTime ',
+                    'item_code': 'SIGN_END_TIME_',
+                    'name_': '报名截止时间',
+                    'expr_': '于(.*)前'
+                }, {
+                    'expr_code_': 'bjnsyhExpr_bjnsyhExpr_singupMaterial',
+                    'item_code': 'SIGN_MATERIAL_',
+                    'name_': '报名材料',
+                    'expr_': '服务商准入标准(?::|：|)([\\s\\S]*?)[一|二|三|四]、'
+                }, {
+                    'expr_code_': 'bjnsyhExpr_bjnsyhExpr_singupQualification',
+                    'item_code': 'SIGN_QUALIFICATION_',
+                    'name_': '报名资格',
+                    'expr_': '服务商准入标准(?::|：|)([\\s\\S]*?)[一|二|三|四]、'
+                }]
+            },
+  所有输出字段'con_f': '{"TITLE_":"{110000BJRCB.CONTENT.TITLE_}","PROJECT_NAME_":"{110000BJRCB.CONTENT.PROJECT_NAME_}","CONTENT_":"{110000BJRCB.CONTENT.CONTENT_}","NOTICE_TIME_":"{110000BJRCB.CONTENT.NOTICE_TIME_}"}',
+            'code': '110000BJRCB.CONTENT.CONTENT_', # 字段名称（前缀实体内容）
+            'algo': {},                             # 字段js函数
+            'type1': 'CONTENT',                     # 内容
+            'type2': 'BLOB'                         # 大文本
+        }],
+        'GRAB': [],
+        'FILE': []
+    },
+    'child': [],
+    'child_output': [],
+    'child_xpath': [],
+    'child_prefix': []
+}]

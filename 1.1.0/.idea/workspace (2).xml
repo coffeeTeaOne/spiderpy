@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb316aa5-b6f5-4387-b9bd-7fcf6b4517b3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/1_0_6$JsEncrypt.coverage" NAME="JsEncrypt Coverage Results" MODIFIED="1556160141673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderpy$OpRedis.coverage" NAME="OpRedis Coverage Results" MODIFIED="1545304727687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OperateDB" />
+    <SUITE FILE_PATH="coverage/1_0_6$begin.coverage" NAME="begin Coverage Results" MODIFIED="1556266184641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_0$staticparm.coverage" NAME="staticparm Coverage Results" MODIFIED="1547189405525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_0$md5.coverage" NAME="md5 Coverage Results" MODIFIED="1551354475639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderpy$begin.coverage" NAME="begin Coverage Results" MODIFIED="1553652902279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_4$beijing.coverage" NAME="beijing Coverage Results" MODIFIED="1554865607411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_4$fenciloop.coverage" NAME="fenciloop Coverage Results" MODIFIED="1552354426316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_0$WanDouProxy.coverage" NAME="WanDouProxy Coverage Results" MODIFIED="1550627534104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPProxy" />
+    <SUITE FILE_PATH="coverage/1_0_0$begin.coverage" NAME="begin Coverage Results" MODIFIED="1551353421279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_4$Tool.coverage" NAME="Tool Coverage Results" MODIFIED="1551420868994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/1_0_6$test.coverage" NAME="test Coverage Results" MODIFIED="1556175865424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderpy_zeus$begin.coverage" NAME="begin Coverage Results" MODIFIED="1557195465568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_6$DealPdf.coverage" NAME="DealPdf Coverage Results" MODIFIED="1556259860702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/1_0_4$OpRedis.coverage" NAME="OpRedis Coverage Results" MODIFIED="1554358539415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OperateDB" />
+    <SUITE FILE_PATH="coverage/1_0_4$begin.coverage" NAME="begin Coverage Results" MODIFIED="1555149421504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderpy$SinaWeiboSpider.coverage" NAME="SinaWeiboSpider Coverage Results" MODIFIED="1544671190782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ICrawlerSpiders/Spiders" />
+    <SUITE FILE_PATH="coverage/1_0_0$VERSION.coverage" NAME="VERSION Coverage Results" MODIFIED="1547189715303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_4$SinaWeiboSpider.coverage" NAME="SinaWeiboSpider Coverage Results" MODIFIED="1554171020579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ICrawlerSpiders/Spiders" />
+    <SUITE FILE_PATH="coverage/spiderpy$md5.coverage" NAME="md5 Coverage Results" MODIFIED="1553666428914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderpy_zeus$dianping_.coverage" NAME="dianping_ Coverage Results" MODIFIED="1557196587187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools/DianPingFiles" />
+    <SUITE FILE_PATH="coverage/spiderpy$WanDouProxy.coverage" NAME="WanDouProxy Coverage Results" MODIFIED="1545128468146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPProxy" />
+    <SUITE FILE_PATH="coverage/1_0_5$md5.coverage" NAME="md5 Coverage Results" MODIFIED="1554865088482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_6$md5.coverage" NAME="md5 Coverage Results" MODIFIED="1555556906931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_0_4$SougouWechatSpider.coverage" NAME="SougouWechatSpider Coverage Results" MODIFIED="1551436191509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ICrawlerSpiders/Spiders" />
+    <SUITE FILE_PATH="coverage/1_0_4$md5.coverage" NAME="md5 Coverage Results" MODIFIED="1555138266856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="begin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/begin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#690#4462#0" />
+                <element signature="e#690#712#0" />
+                <element signature="e#4491#4824#0" />
+                <element signature="e#4842#5127#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dianping_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpiderTools/DianPingFiles/dianping_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="163" selection-start-line="163" selection-end-line="163" />
+              <folding>
+                <element signature="e#150#609#0" />
+                <element signature="e#654#1154#0" />
+                <element signature="e#1188#1709#0" />
+                <element signature="e#1751#2186#0" />
+                <element signature="e#2238#2527#0" />
+                <element signature="e#2565#2907#0" />
+                <element signature="e#2955#3844#0" />
+                <element signature="e#3951#5322#0" />
+                <element signature="e#217266#217303#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressTempletSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+              <folding>
+                <element signature="e#1477#2426#0" />
+                <element signature="e#8369#10223#0" />
+                <element signature="e#10274#11423#0" />
+                <element signature="e#11484#12878#0" />
+                <element signature="e#12925#13420#0" />
+                <element signature="e#13490#13710#0" />
+                <element signature="e#13763#14276#0" />
+                <element signature="e#17452#17947#0" />
+                <element signature="e#20687#21679#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddresMiddlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TemplateMiddleware/AddresMiddlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiddlewareSpider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TemplateMiddleware/MiddlewareSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+              <folding>
+                <element signature="e#12152#14312#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>requests.get</find>
+      <find>print(1)</find>
+      <find>con_grad_item</find>
+      <find>__get_content</find>
+      <find>__request_middware</find>
+      <find>img_src</find>
+      <find>JsFunc</find>
+      <find>deal_url</find>
+      <find>TYPE2_</find>
+      <find>parm</find>
+      <find>黑白</find>
+      <find>域名匹配失败</find>
+      <find>grad_adress_parse</find>
+      <find>地址抓包内容经过处理后值为空</find>
+      <find>//div[@class=&quot;iteam&quot;]/ul/li/a[1]</find>
+      <find>__grad_parse</find>
+      <find>utf-8</find>
+      <find>全局</find>
+      <find>user_agents</find>
+      <find>555</find>
+      <find>result_dict</find>
+      <find>requests</find>
+      <find>context</find>
+      <find>print</find>
+      <find>最高申购费率</find>
+      <find>0.15%（前端）</find>
+      <find>domain</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/IPProxy/ABuYun.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/Spiders/SougouWechat.py" />
+        <option value="$PROJECT_DIR$/Env/Persistence.py" />
+        <option value="$PROJECT_DIR$/IPProxy/IPProxy.py" />
+        <option value="$PROJECT_DIR$/Env/EnvConfig/dbconfig.yaml" />
+        <option value="$PROJECT_DIR$/staticparm.py" />
+        <option value="$PROJECT_DIR$/md5.py" />
+        <option value="$PROJECT_DIR$/IPProxy/WanDouProxy.py" />
+        <option value="$PROJECT_DIR$/OperateDB/OpRedis.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/DataParse/GrabParse.py" />
+        <option value="$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-03-01" />
+        <option value="$PROJECT_DIR$/TemplateMiddleware/ContentMidlewares.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/Spiders/SougouWechatSpider.py" />
+        <option value="$PROJECT_DIR$/fenciloop.py" />
+        <option value="$PROJECT_DIR$/beijing.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/settings.py" />
+        <option value="$PROJECT_DIR$/VERSION.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mongo_to_mongo.py" />
+        <option value="$PROJECT_DIR$/OperateDB/OpMongodb_1.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/mongo_to_mongo.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/Spiders/SinaWeiboSpider.py" />
+        <option value="$PROJECT_DIR$/md5.txt" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/DataParse/PageParse.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/middlewares.py" />
+        <option value="$PROJECT_DIR$/SpidersLog/ICrwlerLog.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/DealPdf.py" />
+        <option value="$PROJECT_DIR$/OperateDB/OpMongodb.py" />
+        <option value="$PROJECT_DIR$/OperateDB/OPMysql.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/Tool.py" />
+        <option value="$PROJECT_DIR$/TemplateMiddleware/AddresMiddlewares.py" />
+        <option value="$PROJECT_DIR$/begin.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/DianPingFiles/dianping_.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py" />
+        <option value="$PROJECT_DIR$/ICrawlerSpiders/Spiders/ContentTempletSpider.py" />
+        <option value="$PROJECT_DIR$/TemplateMiddleware/MiddlewareSpider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="3" />
+    <option name="width" value="1920" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spiderpy-zeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderpy-zeus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiderpy-zeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderpy-zeus" type="462c0819:PsiDirectoryNode" />
+              <item name="ICrawlerSpiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiderpy-zeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderpy-zeus" type="462c0819:PsiDirectoryNode" />
+              <item name="ICrawlerSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="Spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="G:/wensi_workspace/spiderpy-zeus/spiderpy-zeus" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SQL\spiderpy-zeus\spiderpy-zeus\SpiderTools\DianPingFiles" />
+      <recent name="C:\Users\lyial\Desktop\1.0.6\OperateDB" />
+      <recent name="C:\Users\lyial\Desktop\zeus1210\quan_amend\spiderpy\ICrawlerSpiders\Spiders" />
+      <recent name="C:\Users\lyial\Desktop\pactera_spider\zeus\spiderpy\Env" />
+      <recent name="C:\Users\lyial\Desktop\pactera_spider\zeus\spiderpy\IPProxy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyial\Desktop\1.0.6" />
+      <recent name="C:\Users\lyial\Desktop\1.0.6\SpiderTools" />
+      <recent name="C:\Users\lyial\Desktop\1.0.4\ICrawlerSpiders\Spiders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.dianping_">
+    <configuration name="DealPdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpiderTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTools/DealPdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="JsEncrypt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JsEncrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="begin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/begin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dianping_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpiderTools/DianPingFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTools/DianPingFiles/dianping_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.begin" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.DealPdf" />
+      <item itemvalue="Python.JsEncrypt" />
+      <item itemvalue="Python.dianping_" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dianping_" />
+        <item itemvalue="Python.begin" />
+        <item itemvalue="Python.DealPdf" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.JsEncrypt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb316aa5-b6f5-4387-b9bd-7fcf6b4517b3" name="Default" comment="" />
+      <created>1542624143675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542624143675</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35930735" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0773362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4090909" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28701717" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0773362" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3432155" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IPProxy/IPProxy.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IPProxy/IPProxy.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/SougouWechatSpider.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/SougouWechatSpider.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fenciloop.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TemplateMiddleware/ContentMidlewares.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/DataParse/PageParse.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/DataParse/PageParse.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/DealPdf.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/DealPdf.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py</url>
+          <line>412</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py</url>
+          <line>547</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py</url>
+          <line>554</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/DealPdf.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py</url>
+          <line>560</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="308" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="url" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fenciloop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-10" />
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-11" />
+    <entry file="file://$PROJECT_DIR$/../coffee/venv/SpiderVenv/Lib/site-packages/scrapy/cmdline.py" />
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-16" />
+    <entry file="file://$PROJECT_DIR$/OperateDB/OpMongodb_1.py" />
+    <entry file="file://$PROJECT_DIR$/SpiderTools/mongo_to_mongo.py" />
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-17" />
+    <entry file="file://$PROJECT_DIR$/VERSION.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperateDB/OpRedis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/urllib/request.py" />
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/SinaWeiboSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/SougouWechatSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exception/ReturnCode.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-19" />
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/DataParse/GrabParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/DataParse/PageParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="286" column="24" lean-forward="true" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-22" />
+    <entry file="file://$PROJECT_DIR$/../coffee/venv/SpiderVenv/Lib/site-packages/scrapy/utils/url.py" />
+    <entry file="file://$PROJECT_DIR$/../coffee/venv/SpiderVenv/Lib/site-packages/scrapy/utils/trackref.py" />
+    <entry file="file://$PROJECT_DIR$/../coffee/venv/SpiderVenv/Lib/site-packages/scrapy/http/request/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../coffee/venv/SpiderVenv/Lib/site-packages/scrapy/http/request/form.py" />
+    <entry file="file://$PROJECT_DIR$/SpiderTools/JsFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-24" />
+    <entry file="file://$PROJECT_DIR$/JsEncrypt.py" />
+    <entry file="file://$PROJECT_DIR$/loop.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-25" />
+    <entry file="file://$PROJECT_DIR$/SpiderTools/DealPdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpidersLog/ICrwlerLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-04-26">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8111">
+          <caret line="653" column="120" lean-forward="true" selection-start-line="653" selection-start-column="120" selection-end-line="653" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/Tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="310" column="52" lean-forward="true" selection-start-line="310" selection-start-column="52" selection-end-line="310" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperateDB/OPMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="88" lean-forward="true" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/icrawlerspider.spider.log.2019-05-07">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="191" column="150" lean-forward="true" selection-start-line="191" selection-start-column="150" selection-end-line="191" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperateDB/OpMongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="83" lean-forward="true" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/DianPingFiles/config/css.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/DianPingFiles/dz.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/begin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#690#4462#0" />
+            <element signature="e#690#712#0" />
+            <element signature="e#4491#4824#0" />
+            <element signature="e#4842#5127#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/DianPingFiles/dianping_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="e#150#609#0" />
+            <element signature="e#654#1154#0" />
+            <element signature="e#1188#1709#0" />
+            <element signature="e#1751#2186#0" />
+            <element signature="e#2238#2527#0" />
+            <element signature="e#2565#2907#0" />
+            <element signature="e#2955#3844#0" />
+            <element signature="e#3951#5322#0" />
+            <element signature="e#217266#217303#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/ContentTempletSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="337" column="32" lean-forward="true" selection-start-line="337" selection-start-column="32" selection-end-line="337" selection-end-column="32" />
+          <folding>
+            <element signature="e#1551#2331#0" />
+            <element signature="e#2373#3228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICrawlerSpiders/Spiders/AddressTempletSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+          <folding>
+            <element signature="e#1477#2426#0" />
+            <element signature="e#8369#10223#0" />
+            <element signature="e#10274#11423#0" />
+            <element signature="e#11484#12878#0" />
+            <element signature="e#12925#13420#0" />
+            <element signature="e#13490#13710#0" />
+            <element signature="e#13763#14276#0" />
+            <element signature="e#17452#17947#0" />
+            <element signature="e#20687#21679#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateMiddleware/AddresMiddlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateMiddleware/MiddlewareSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+          <folding>
+            <element signature="e#12152#14312#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
