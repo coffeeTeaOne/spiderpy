@@ -49,24 +49,24 @@ class PyppeteerGetResponse(object):
         return cookies
 
 
-    async def main(self):
+    async def main(self,url = 'https://news.163.com/20/0107/19/F2AF0CER00018AOR.html'):
         # print("in main ")
         # print(os.environ.get('PYPPETEER_CHROMIUM_REVISION'))
-        ip = RedisClient().get()
+        # ip = RedisClient().get()
 
         # 设置无头和代理
-        browser = await pyppeteer.launch({'headless': True, 'timeout': 10,
+        browser = await pyppeteer.launch({'headless': True, 'timeout': 20,
                                     'args': [
                                         '--no-sandbox',
                                         '--disable-gpu',
                                         '--disable-infobars',
-                                        '--proxy-server={}'.format(ip),
+                                        # '--proxy-server={}'.format(ip),
                                     ], })
         page = await browser.newPage()
         # 设置ua
         await page.setUserAgent(random.choice(user_agent_list))
         # 访问页面
-        await page.goto('http://www.pbc.gov.cn/tiaofasi/144941/144951/index.html')
+        await page.goto(url)
         content = await page.content()         # 页面
         url = page.url                         # url
         cookies = await self.get_cookie(page)  # cookie
@@ -74,7 +74,7 @@ class PyppeteerGetResponse(object):
         await browser.close()
         return {'content': content, 'cookies': cookies, 'url': url}
 
-    def run(self):
+    def run(self,):
         loop = asyncio.get_event_loop()
         task = asyncio.ensure_future(self.main())
         loop.run_until_complete(task)
@@ -82,4 +82,5 @@ class PyppeteerGetResponse(object):
 
 
 if __name__ == '__main__':
+
     print(PyppeteerGetResponse().run())

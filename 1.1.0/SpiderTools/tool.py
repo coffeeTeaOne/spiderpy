@@ -12,7 +12,7 @@ import random
 from urllib.parse import urlparse
 from ICrawlerSpiders.useragent import user_agent_list
 
-#下载
+# 下载
 from OperateDB.conn_redis import RedisClient
 from SpiderTools.sougou_wechat_api import WechatSogouAPI
 
@@ -40,6 +40,7 @@ def Download(url,dir,name):
          return None
     '''
 
+
 def re_text(str):
     '''
     替换特殊字符
@@ -52,6 +53,7 @@ def re_text(str):
     str = str.strip()
     return str
 
+
 def re_blank_text(str):
     '''替换空格字符
     :param str:
@@ -62,6 +64,7 @@ def re_blank_text(str):
         str = str.replace(r,'')
     str = str.strip()
     return str
+
 
 def deal_text(s):
     '''把文本的换行等换成|，其它的去掉
@@ -80,11 +83,13 @@ def deal_text(s):
     s = s.strip()
     return s
 
+
 def deal_img_special_symbol(s):
     regular = ['\xa0', '\u3000', '\t', ' ','?','#',';',':',',','"','\'','=']
     for r in regular:
         s = s.replace(r,'')
     return s
+
 
 def replace_special_text(str):
     '''替换多个|
@@ -96,6 +101,7 @@ def replace_special_text(str):
     expr2 = '^[|]'
     str = re.sub(expr2, '', str)  # 替换最开头|为空
     return str
+
 
 def join_group(group,lengroup):
     '''  [('','b')，('a','')] 这种合并成['a','b']
@@ -113,12 +119,14 @@ def join_group(group,lengroup):
                 l[index] = j
     return l
 
+
 def str_encode(s):
     '''将一个字符串转换为相应的二进制串（01形式表示）
     :param s:
     :return:
     '''
     return ' '.join([bin(ord(c)).replace('0b', '') for c in s])
+
 
 def str_decode(s):
     '''够将这个二进制串再转换回原来的字符串
@@ -253,6 +261,7 @@ def get_dict(conf, data):
 
     return tempdict
 
+
 def complement_url(complement,url,prefix_url=None):
     '''
     补全url功能
@@ -273,6 +282,7 @@ def complement_url(complement,url,prefix_url=None):
         url = url
     return url
 
+
 def platform_system():
 
     sysstr = platform.system()
@@ -286,11 +296,13 @@ def platform_system():
     else:
         return 'Other System'
 
+
 def get_base64(dir,name):
     with open("%s%s" % (dir, name), "rb") as f:
         # b64encode是编码，b64decode是解码
         base64_data = base64.b64encode(f.read())
     return str(base64_data,encoding='utf-8')
+
 
 def get_date_time():
     time_local = time.localtime(int(time.time()))
@@ -328,9 +340,11 @@ def get_top_host(url):
 
     return top_host
 
+
 def get_username():
     import pwd
     return str(pwd.getpwuid(os.getuid())[0])
+
 
 def diff_url(url, last_url):
     """
@@ -368,6 +382,7 @@ def diff_url(url, last_url):
     else:
         domain_url = last_url.split('/')[2]
         return 'http://' + domain_url + '/' + url
+
 
 def wash_url(url):
     from SpidersLog.icrwler_log import ICrawlerLog
