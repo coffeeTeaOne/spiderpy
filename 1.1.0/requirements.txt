@@ -10,7 +10,7 @@ pyparsing==2.2.0
 pyquery==1.4.0
 requests==2.18.4
 Scrapy==1.5.0
-PyYAML==3.13
+PyYAML==5.4
 PyMuPDF==1.13.20
 redis==2.10.6
 Js2Py==0.59
